@@ -1,0 +1,298 @@
+export const translations = {
+  en: {
+    // ---- farmer 
+    sidebar: {
+      dashboard: "Dashboard",
+      newBooking: "New Booking",
+      myBookings: "My Bookings",
+      liveTracking: "Live Tracking",
+      history: "History",
+      changeLang: "English",
+      logout: "Logout",
+      role: "Farmer"
+    },
+    dashboard: {
+      welcome: "Welcome, Veda Ram!",
+      subtitle: "Today is a great day for farming and trade.",
+      weatherLoc: "Weather: Jaipur",
+      totalSavings: "Total Savings",
+      savingsNote: "Savings from middlemen",
+      activeShipment: "Active Shipment",
+      inTransit: "In Transit",
+      totalTrips: "Total Trips",
+      successDeliveries: "Successful Deliveries",
+      mandiTitle: "Mandi Rates Today",
+      viewAll: "View All",
+      bannerTitle: "Mandi Delivery Made Easy!",
+      bannerSub: "Book your truck with fixed rates and live GPS tracking.",
+      bookBtn: "Book New Truck",
+      recentUpdates: "Recent Updates",
+      update1: "Your Wheat (500kg) has reached Jaipur Mandi.",
+      update2: "New Truck RJ-14-XX-0001 is ready for booking.",
+    },
+    // new bookings
+    newBooking: {
+      newBookingTitle: "Book a New Truck",
+      newBookingSub: "Enter your crop details and find a truck instantly.",
+      cropLabel: "Crop Name",
+      weightLabel: "Total Weight",
+      pickupLabel: "Pickup Location (Farm/Village)",
+      mandiLabel: "Destination Mandi",
+      dateLabel: "Pickup Date",
+      findTruckBtn: "Find Suitable Truck",
+      estFare: "Estimated Fare",
+      totalAmt: "Total Amount",
+      fareNote: "*30% savings already included.",
+      trustTitle: "Transparent Pricing",
+      trustSub: "No hidden charges, guaranteed."
+    },
+    // My Bookings Section
+    myBookings: {
+      title: "My Bookings",
+      subtitle: "Check the status of all your shipments here.",
+      tabOngoing: "Ongoing",
+      tabHistory: "History",
+      vajan: "Weight",
+      location: "Location",
+      callDriver: "Call Driver",
+      trackLive: "Track Live",
+      billDownload: "Bill Download",
+      journeyStart: "Farm",
+      journeyEnd: "Mandi",
+      completedTask: "Journey Completed",
+
+    },
+    // Live Tracking Section
+    liveTracking: {
+      title: "Live Tracking",
+      gpsStatus: "GPS Connected • Updating Live",
+      estArrival: "Estimated Arrival",
+      timeLeft: "45 Mins Left",
+      currentSpeed: "Current Speed",
+      nextHalt: "Next Halt",
+      driverJankari: "Driver Information",
+      verified: "Verified Professional",
+      callBtn: "Call Driver",
+      routeTitle: "Route Timeline",
+      start: "START",
+      current: "CURRENT",
+      destination: "DESTINATION",
+      farm: "Your Farm",
+      mandi: "Jaipur Mandi"
+    },
+    // History Section
+    history: {
+      title: "Trip History",
+      subtitle: "Detailed records of all your past transactions and trips.",
+      downloadBtn: "Download Full Report",
+      searchPlaceholder: "Search by Mandi or Date...",
+      filterBtn: "Filters",
+      tableDate: "Date",
+      tableRoute: "Route",
+      tableCrop: "Crop & Truck",
+      tableAmount: "Fare Amount",
+      tableStatus: "Status",
+      tableAction: "Invoice",
+      paidVia: "Paid via UPI",
+      delivered: "Delivered",
+      footerNote: "All your past bills and receipts are safely stored here."
+    }
+  },
+  hi: {
+    // ------ Farmer
+    sidebar: {
+      dashboard: "डैशबोर्ड",
+      newBooking: "नई बुकिंग",
+      myBookings: "मेरी बुकिंग",
+      liveTracking: "लाइव ट्रैकिंग",
+      history: "पुराना रिकॉर्ड",
+      changeLang: "हिन्दी",
+      logout: "लॉगआउट",
+      role: "किसान"
+    },
+    dashboard: {
+      welcome: "राम-राम, वेद राम!",
+      subtitle: "आज का दिन खेती और व्यापार के लिए शुभ है।",
+      weatherLoc: "मौसम: जयपुर",
+      totalSavings: "कुल बचत",
+      savingsNote: "बिचौलियों से बचत",
+      activeShipment: "सक्रिय शिपमेंट",
+      inTransit: "रास्ते में है",
+      totalTrips: "कुल यात्राएं",
+      successDeliveries: "सफल डिलीवरी",
+      mandiTitle: "आज का मंडी भाव",
+      viewAll: "सभी देखें",
+      bannerTitle: "मंडी पहुँचाना हुआ और भी आसान!",
+      bannerSub: "सही रेट और GPS ट्रैकिंग के साथ ट्रक बुक करें।",
+      bookBtn: "नया ट्रक बुक करें",
+      recentUpdates: "हाल के अपडेट",
+      update1: "आपका गेहूँ (500kg) जयपुर मंडी पहुँच गया है।",
+      update2: "नया ट्रक RJ-14-XX-0001 बुकिंग के लिए तैयार है।",
+    },
+    // new booking 
+    newBooking: {
+      newBookingTitle: "नयी बुकिंग करें",
+      newBookingSub: "अपनी फसल की जानकारी भरें और ट्रक पायें।",
+      cropLabel: "फसल का नाम",
+      weightLabel: "कुल वजन",
+      pickupLabel: "पिकअप की जगह (खेत/गाँव)",
+      mandiLabel: "मंडी का नाम",
+      dateLabel: "पिकअप की तारीख",
+      findTruckBtn: "सही ट्रक ढूँढें",
+      estFare: "अनुमानित किराया",
+      totalAmt: "कुल राशि",
+      fareNote: "*इसमें 30% बचत पहले से जुड़ी है।",
+      trustTitle: "पारदर्शी दरें",
+      trustSub: "कोई छुपा हुआ खर्च नहीं।"
+    },
+    // My Bookings Section
+    myBookings: {
+      title: "मेरी बुकिंग",
+      subtitle: "अपने सभी शिपमेंट का स्टेटस यहाँ देखें।",
+      tabOngoing: "चालू",
+      tabHistory: "इतिहास",
+      vajan: "वजन",
+      location: "लोकेशन",
+      callDriver: "ड्राइवर को कॉल करें",
+      trackLive: "लाइव ट्रैक",
+      billDownload: "बिल डाउनलोड",
+      journeyStart: "खेत",
+      journeyEnd: "मंडी",
+      completedTask: "सफर पूरा हुआ"
+    },
+    // Live Tracking Section
+    liveTracking: {
+      title: "लाइव ट्रैकिंग",
+      gpsStatus: "GPS कनेक्टेड • लाइव अपडेट",
+      estArrival: "पहुँचने का समय",
+      timeLeft: "45 मिनट शेष",
+      currentSpeed: "वर्तमान गति",
+      nextHalt: "अगला ठहराव",
+      driverJankari: "ड्राइवर की जानकारी",
+      verified: "सत्यापित प्रोफेशनल",
+      callBtn: "ड्राइवर को कॉल करें",
+      routeTitle: "रास्ता समय-रेखा",
+      start: "शुरुआत",
+      current: "अभी यहाँ",
+      destination: "मंजिल",
+      farm: "आपका खेत",
+      mandi: "जयपुर मंडी"
+    },
+    // History Section
+    history: {
+      title: "पिछली यात्रा (इतिहास)",
+      subtitle: "आपके सारे पुराने हिसाब-किताब की जानकारी।",
+      downloadBtn: "पूरी रिपोर्ट डाउनलोड करें",
+      searchPlaceholder: "मंडी या तारीख से सर्च करें...",
+      filterBtn: "फ़िल्टर",
+      tableDate: "तारीख",
+      tableRoute: "रास्ता",
+      tableCrop: "फसल और ट्रक",
+      tableAmount: "किराया",
+      tableStatus: "स्थिति",
+      tableAction: "बिल",
+      paidVia: "UPI द्वारा भुगतान",
+      delivered: "पहुँच गया",
+      footerNote: "आपके पुराने सभी बिल और रसीदें यहाँ सुरक्षित हैं।"
+    }
+  },
+  hg: {
+    // ----- Farmer
+    sidebar: {
+      dashboard: "Dashboard",
+      newBooking: "Nayi Booking",
+      myBookings: "Meri Bookings",
+      liveTracking: "Live Tracking",
+      history: "Purana Hisaab",
+      changeLang: "Hinglish",
+      logout: "Logout Karein",
+      role: "Kisan"
+    },
+    dashboard: {
+      welcome: "Ram Ram, Veda Ram!",
+      subtitle: "Aaj ka din kheti aur vyapar ke liye shubh hai.",
+      weatherLoc: "Weather: Jaipur",
+      totalSavings: "Kul Bachat",
+      savingsNote: "Middlemen se bachat",
+      activeShipment: "Active Shipment",
+      inTransit: "Raste mein hai",
+      totalTrips: "Kul Trips",
+      successDeliveries: "Successful Deliveries",
+      mandiTitle: "Mandi Bhav Today",
+      viewAll: "View All",
+      bannerTitle: "Mandi Pahunchana Hua Aur Bhi Aasaan!",
+      bannerSub: "Sahi rate aur GPS tracking ke saath truck book karein.",
+      bookBtn: "Naya Truck Book Karein",
+      recentUpdates: "Recent Updates",
+      update1: "Aapka Gehu (500kg) Jaipur Mandi pahunch gaya hai.",
+      update2: "Naya Truck RJ-14-XX-0001 booking ke liye taiyar hai.",
+    },
+    // new booking
+    newBooking: {
+      newBookingTitle: "Nayi Booking Karein",
+      newBookingSub: "Apni fasal ki jankari bharein aur truck payein.",
+      cropLabel: "Fasal Ka Naam",
+      weightLabel: "Kul Vajan",
+      pickupLabel: "Pickup ki Jagah",
+      mandiLabel: "Mandi ka Naam",
+      dateLabel: "Pickup ki Tareekh",
+      findTruckBtn: "Sahi Truck Dhoondhein",
+      estFare: "Anumanit Kiraya",
+      totalAmt: "Total Amount",
+      fareNote: "*Isme 30% bachat pehle se jodi gayi hai.",
+      trustTitle: "Transparent Pricing",
+      trustSub: "Koi chhupa hua kharch nahi।"
+    },
+    // My Bookings Section
+    myBookings: {
+      title: "Meri Bookings",
+      subtitle: "Apne saare shipments ka status yahan dekhein.",
+      tabOngoing: "Chalu (Ongoing)",
+      tabHistory: "Poori Hui (History)",
+      vajan: "Vajan",
+      location: "Location",
+      callDriver: "Call Driver",
+      trackLive: "Track Live",
+      billDownload: "Bill Download",
+      journeyStart: "Farm (Khet)",
+      journeyEnd: "Mandi",
+      completedTask: "Safar Poora"
+    },
+    // Live Tracking Section
+    liveTracking: {
+      title: "Live Tracking",
+      gpsStatus: "GPS Connected • Updating Live",
+      estArrival: "Estimated Arrival",
+      timeLeft: "45 Mins Left",
+      currentSpeed: "Current Speed",
+      nextHalt: "Agla Halt",
+      driverJankari: "Driver Jankari",
+      verified: "Verified Professional",
+      callBtn: "Driver ko Call Karein",
+      routeTitle: "Route Timeline",
+      start: "START",
+      current: "CURRENT",
+      destination: "DESTINATION",
+      farm: "Apka Khet",
+      mandi: "Jaipur Mandi"
+    },
+    // History Section
+    history: {
+      title: "Pichli Yatra (History)",
+      subtitle: "Aapke saare purane hisaab-kitaab ki jankari.",
+      downloadBtn: "Full Report Download Karein",
+      searchPlaceholder: "Mandi ya Date se search karein...",
+      filterBtn: "Filters",
+      tableDate: "Tareekh",
+      tableRoute: "Rasta",
+      tableCrop: "Fasal & Truck",
+      tableAmount: "Kiraya",
+      tableStatus: "Status",
+      tableAction: "Action",
+      paidVia: "Paid via UPI",
+      delivered: "Delivered",
+      footerNote: "Purane saare bills aur receipts yahan surakshit hain."
+    }
+
+  }
+};
