@@ -5,7 +5,6 @@ import Register from "./Components/auth/Register";
 import FarmerDashboard from "./Components/farmer/FarmerDashboard";
 import MyBookings from "./Components/farmer/MyBookings";
 import History from "./Components/farmer/History";
-import DashboardHome from "./Components/farmer/DashboardHome.JSX";
 import LiveTracking from "./Components/farmer/LiveTracking";
 import NewBooking from "./Components/farmer/NewBooking";
 import TruckDashboard from "./Components/truck/TruckDashboard";
@@ -13,6 +12,7 @@ import TruckDashboardHome from "./Components/truck/TruckDashboardHome";
 import AvailableLoads from "./Components/truck/AvailableLoads";
 import Earnings from "./Components/truck/Earnings";
 import TripHistory from "./Components/truck/TripHistory";
+import DashboardHome from "./Components/farmer/DashboardHome.jsx";
 
 function App() {
   return (
