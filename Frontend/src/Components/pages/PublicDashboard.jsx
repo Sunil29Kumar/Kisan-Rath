@@ -1,10 +1,10 @@
-import About from "../public pages/About.jsx";
-import Contact from "../public pages/Contact.jsx";
-import FAQ from "../public pages/FAQ.jsx";
-import Footer from "../public pages/Footer.jsx";
-import Hero from "../public pages/Hero.jsx";
-import Navbar from "../public pages/NavBar.jsx";
-import Services from "../public pages/Services.jsx";
+import About from "../PublicPages/About.js";
+import Contact from "../PublicPages/Contact.js";
+import FAQ from "../PublicPages/FAQ.js";
+import Footer from "../PublicPages/Footer.js";
+import Hero from "../PublicPages/Hero.js";
+import Navbar from "../PublicPages/NavBar.jsx";
+import Services from "../PublicPages/Services.jsx";
 
 
 const PublicDashboard = () => {
