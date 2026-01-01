@@ -1,10 +1,10 @@
-import About from "../public/About";
-import Contact from "../public/Contact";
-import FAQ from "../public/FAQ";
-import Footer from "../public/Footer";
-import Hero from "../public/Hero";
-import Navbar from "../public/NavBar";
-import Services from "../public/Services";
+import About from "../public pages/About";
+import Contact from "../public pages/Contact";
+import FAQ from "../public pages/FAQ";
+import Footer from "../public pages/Footer";
+import Hero from "../public pages/Hero";
+import Navbar from "../public pages/NavBar";
+import Services from "../public pages/Services";
 
 
 const PublicDashboard = () => {
