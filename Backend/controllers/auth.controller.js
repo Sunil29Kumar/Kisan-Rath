@@ -5,8 +5,6 @@ import User from "../models/user.js";
 export const register = async (req, res) => {
     try {
         const userData = req.body;
-        console.log(req.body);
-
 
         // 1️ Basic validation
         if (!userData.mobile || !userData.role) {
@@ -66,13 +64,10 @@ export const register = async (req, res) => {
 };
 
 
-
 // login controller 
 export const login = async (req, res) => {
 
     const { mobile, password } = req.body;
-
-    console.log(req.body);
 
     const user = await User.findOne({ mobile });
 
