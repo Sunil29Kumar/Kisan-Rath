@@ -23,8 +23,8 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
             <Link to="/" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Home</Link>
-            <Link to="/services" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Services</Link>
-            <Link to="/about" className="text-gray-600 hover:text-green-600 font-medium transition-colors">About</Link>
+            <Link to="" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Services</Link>
+            <Link to="" className="text-gray-600 hover:text-green-600 font-medium transition-colors">About</Link>
             
             <div className="flex items-center gap-4 ml-4">
               <Link 
