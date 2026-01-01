@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom"; // react-router-dom use karein
-import PublicDashboard from "./pages/PublicDashboard";
+import PublicDashboard from "./Components/pages/PublicDashboard.jsx";
 import Login from "./Components/auth/Login";
 import Register from "./Components/auth/Register";
 import FarmerDashboard from "./Components/farmer/FarmerDashboard";
