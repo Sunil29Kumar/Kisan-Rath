@@ -21,7 +21,7 @@ const Footer = () => {
                 <FaTruck className="text-white text-xl" />
               </div>
               <span className="text-2xl font-bold text-white tracking-tight">
-                Kisan Rath
+                Farm Truck
               </span>
             </Link>
             <p className="text-sm leading-relaxed text-gray-400">

@@ -94,7 +94,7 @@ const TSidebar = () => {
                                 <FaTruck className="text-white text-xl" />
                             </div>
                             <div className="flex flex-col">
-                                <span className="text-lg font-black text-slate-800 leading-none">Kisan Rath</span>
+                                <span className="text-lg font-black text-slate-800 leading-none">Farm Truck</span>
                                 <span className="text-[10px] font-bold text-blue-600 tracking-widest uppercase">Partner</span>
                             </div>
 
